@@ -11,6 +11,9 @@ all: build
 build:
 	xcodebuild -scheme $(SCHEME) -configuration $(CONFIGURATION) -destination 'platform=iOS Simulator' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGN_ENTITLEMENTS="" CODE_SIGNING_ALLOWED="NO" build
 
+build_rosetta:
+	arch -x86_64  xcodebuild -scheme $(SCHEME) -configuration $(CONFIGURATION) -destination 'platform=iOS Simulator' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGN_ENTITLEMENTS="" CODE_SIGNING_ALLOWED="NO" build
+
 # Target to clean the build
 clean:
 	xcodebuild -scheme $(SCHEME) -configuration $(CONFIGURATION) clean
