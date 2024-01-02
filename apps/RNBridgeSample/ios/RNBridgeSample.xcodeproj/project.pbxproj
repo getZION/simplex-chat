@@ -16,6 +16,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BB0C88302B44549E0045D83A /* RNBridgeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C882F2B44549E0045D83A /* RNBridgeSample.swift */; };
 		BB0C88322B4456130045D83A /* RNBridgeSample.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0C88312B4456130045D83A /* RNBridgeSample.m */; };
+		BBF9B2712B449292006DC1A9 /* ios in Resources */ = {isa = PBXBuildFile; fileRef = BBF9B2702B449292006DC1A9 /* ios */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BB0C882E2B44549E0045D83A /* RNBridgeSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNBridgeSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		BB0C882F2B44549E0045D83A /* RNBridgeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBridgeSample.swift; sourceTree = "<group>"; };
 		BB0C88312B4456130045D83A /* RNBridgeSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridgeSample.m; sourceTree = "<group>"; };
+		BBF9B2702B449292006DC1A9 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; path = ../../ios; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				BBF9B2702B449292006DC1A9 /* ios */,
 				BB0C88312B4456130045D83A /* RNBridgeSample.m */,
 				13B07FAE1A68108700A75B9A /* RNBridgeSample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF9B2712B449292006DC1A9 /* ios in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);

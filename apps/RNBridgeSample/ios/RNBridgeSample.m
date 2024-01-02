@@ -8,6 +8,7 @@
 
 @interface RCT_EXTERN_MODULE(RNBridgeSample, NSObject)
 RCT_EXTERN_METHOD(increment)
+RCT_EXTERN_METHOD(helloSimplex)
 RCT_EXTERN_METHOD(getCount: (RCTResponseSenderBlock)callback)
 _RCT_EXTERN_REMAP_METHOD(inc, increment, false)
 @end

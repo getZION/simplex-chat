@@ -6,9 +6,9 @@
 //
 
 import Foundation
+import SimpleXChat
 
 @objc(RNBridgeSample)
-
 class RNBridgeSample: NSObject {
   private var count = 0
 
@@ -37,6 +37,14 @@ class RNBridgeSample: NSObject {
   @objc
   static func requiresMainQueueSetup() -> Bool {
     return true
+  }
+
+  @objc
+  func helloSimplex() -> String {
+    print("Hello Simplex!")
+    let api = SimpleXAPI()
+    print("created api")
+    return api.apiGetVersion()
   }
 
 }
