@@ -9,7 +9,7 @@ all: build
 
 # Target to build the project
 build:
-	xcodebuild -scheme $(SCHEME) -configuration $(CONFIGURATION) build
+	xcodebuild -scheme $(SCHEME) -configuration $(CONFIGURATION) -destination 'platform=iOS Simulator' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGN_ENTITLEMENTS="" CODE_SIGNING_ALLOWED="NO" build
 
 # Target to clean the build
 clean:
