@@ -25,6 +25,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import {NativeModules} from 'react-native';
+
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
@@ -115,4 +117,11 @@ const styles = StyleSheet.create({
   },
 });
 
+NativeModules.RNBridgeSample.inc();
+NativeModules.RNBridgeSample.inc();
+console.log(
+  NativeModules.RNBridgeSample.getCount(value => {
+    console.log('got count from bridge at ', value);
+  }),
+);
 export default App;

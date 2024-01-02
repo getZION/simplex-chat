@@ -15,6 +15,7 @@
 		7699B88040F8A987B510C191 /* libPods-RNBridgeSample-RNBridgeSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNBridgeSample-RNBridgeSampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BB0C88302B44549E0045D83A /* RNBridgeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C882F2B44549E0045D83A /* RNBridgeSample.swift */; };
+		BB0C88322B4456130045D83A /* RNBridgeSample.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0C88312B4456130045D83A /* RNBridgeSample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNBridgeSample-RNBridgeSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBridgeSample-RNBridgeSampleTests.release.xcconfig"; path = "Target Support Files/Pods-RNBridgeSample-RNBridgeSampleTests/Pods-RNBridgeSample-RNBridgeSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		BB0C882E2B44549E0045D83A /* RNBridgeSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNBridgeSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		BB0C882F2B44549E0045D83A /* RNBridgeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBridgeSample.swift; sourceTree = "<group>"; };
+		BB0C88312B4456130045D83A /* RNBridgeSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridgeSample.m; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				BB0C88312B4456130045D83A /* RNBridgeSample.m */,
 				13B07FAE1A68108700A75B9A /* RNBridgeSample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNBridgeSampleTests */,
@@ -399,6 +402,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				BB0C88302B44549E0045D83A /* RNBridgeSample.swift in Sources */,
+				BB0C88322B4456130045D83A /* RNBridgeSample.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
